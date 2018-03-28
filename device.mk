@@ -67,6 +67,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libkeymaster1
 
+# Properties
+-include device/xiaomi/tissot/prop.mk
+
 # Ramdisk
 PRODUCT_PACKAGES += \
     init.goodix.sh \
