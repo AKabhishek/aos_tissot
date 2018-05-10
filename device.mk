@@ -63,10 +63,6 @@ PRODUCT_PACKAGES += \
     android.hardware.ir@1.0-impl \
     android.hardware.ir@1.0-service
 
-# Keymaster
-PRODUCT_PACKAGES += \
-    libkeymaster1
-
 # Properties
 -include device/xiaomi/tissot/prop.mk
 
@@ -78,10 +74,6 @@ PRODUCT_PACKAGES += \
 # Sensors
 PRODUCT_PACKAGES += \
     $(LOCAL_PATH)/configs/sensors/sensor_def_qcomdev.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/sensor_def_qcomdev.conf
-
-# Shims
-PRODUCT_PACKAGES += \
-    libshims_skia
 
 # Update engine
 PRODUCT_PACKAGES += \
